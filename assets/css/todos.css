@@ -81,3 +81,9 @@ li:hover span{
 .fa-plus{
 	float: right;
 }
+
+.description{
+	background: #eeeeee;
+	color: #666666;
+	float: right;
+}
