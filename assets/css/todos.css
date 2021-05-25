@@ -33,7 +33,7 @@ li:nth-child(2n){
 	background: #eeeeee;
 }
 
-input{
+.addToDo{
 	font-size: 18px;
 	width: 100%;
 	padding: 13px 13px 13px 20px;
@@ -83,7 +83,22 @@ li:hover span{
 }
 
 .description{
-	background: #eeeeee;
+	background: none;
+	border: none;
 	color: #666666;
 	float: right;
+	box-sizing: border-box;
+	height: 100%;
+	width: 0;
+	transition: 0.2s linear;
+}
+
+li:hover .description{
+	width: 200px;
+}
+
+.description:focus{
+	background: none;
+	border: none;
+	outline: none;
 }
